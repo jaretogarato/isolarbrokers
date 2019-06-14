@@ -32,6 +32,8 @@ import GoldBarsHoriz from '../assets/images/gold-bars-horiz.jpg';
 import IconBank from '../assets/images/icon-bank.png';
 import IconCash from '../assets/images/icon-cash.png';
 import IconCredit from '../assets/images/icon-credit.png';
+import SolarPanelsBgWide from '../assets/images/mariana-proenca-1235961-unsplash-v02.jpg';
+import SolarPanelsBgWide2 from '../assets/images/isolarbrokers-background2.jpg';
 
 // USGInUSD in is master value for entire application
 import {USGInUSD} from './partials/USGInUSD';
@@ -107,24 +109,67 @@ class Home extends Component {
   render() {
     return (
       <Container fluid>
-        <HeroHeader bgImage={TopBg}>
+        {/* <HeroHeader bgImage={TopBg}>
           <Container>
             <HhInnerContainer>
-              <HhTextContainer>
-                <HhH1>
-                  STAR SOLAR
-                </HhH1>
-                <HhH2>
-                  Create your own energy with a solar system for your home.
-                </HhH2>
-              </HhTextContainer>
-              <Fade>
-                {/* <HhImageContainer bgImage={USGoldToken} /> */}
-                <HhImageContainer bgImage={StarSolarSymbol} />
-              </Fade>
+          <HhTextContainer>
+          <HhH1>
+          STAR SOLAR
+          </HhH1>
+          <HhH2>
+          Create your own energy with a solar system for your home.
+          </HhH2>
+          </HhTextContainer>
+          <Fade>
+          <HhImageContainer bgImage={StarSolarSymbol} />
+          </Fade>
             </HhInnerContainer>
           </Container>
-        </HeroHeader>
+        </HeroHeader> */}
+
+        <FullWidthBgDiv bgImage={SolarPanelsBgWide2} height='600px'>
+          <Container>
+            <Grid>
+              <Grid.Row>
+                <Grid.Column width={1} />
+                <Grid.Column width={14}>
+                  <OpenH3 color='white'>
+                    You deserve great financing options.
+                  </OpenH3>
+                  <VerticalSpacer height={50} />
+                  <OpenH4 color='white'>
+                    You deserve stellar financing options that will reward your investment by granting you the maximum tax credit available where you live. With multiple financing options, you could get your custom solar system with zero-money down. We pledge to help you maximize your cost savings and return. <br /><br />
+                  </OpenH4>
+                </Grid.Column>
+                <Grid.Column width={1} />
+              </Grid.Row>
+            </Grid>
+          </Container>
+        </FullWidthBgDiv>
+
+        {/* <Grid divided>
+          <Grid.Row columns='equal'>
+            <Grid.Column>
+          <OpenH5 textAlign='center'>
+          USG tokens are a gold coin-backed blockchain cryptocurrency issued and administered via smart contracts on Ethereum, a blockchain-based distributed computing platform.
+          </OpenH5>
+          <OpenH5 textAlign='center'>
+          USG tokens are a direct representation of gold American Eagle one ounce coins issued by the United States Mint.
+          </OpenH5>
+            </Grid.Column>
+            <Grid.Column>
+          <OpenH5 textAlign='center'>
+          USG tokens may be redeemed at any time at a 1-to-1 token-to-coin ratio.
+          </OpenH5>
+          <OpenH5 textAlign='center'>
+          US Gold Currency LLC is located on the "Crypto Plain" in Wyoming.
+          </OpenH5>
+          <OpenH5 textAlign='center'>
+          The State of Wyoming is the leader in transformational legislation providing an unparalleled business landscape to cryptocurrency and crypto-commodity infrastructure companies within these emerging sectors.
+          </OpenH5>
+            </Grid.Column>
+          </Grid.Row>
+        </Grid> */}
 
         <FullWidthDiv topColor='#f9f9f9' bottomColor='#f9f9f9'>
           <Container>

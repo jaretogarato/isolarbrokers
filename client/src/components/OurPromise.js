@@ -90,29 +90,29 @@ class OurPromise extends Component {
                 </Grid.Column>
               </Grid.Row>
             </Grid>
-            {/* <Grid divided>
+            <Grid divided>
               <Grid.Row columns='equal'>
                 <Grid.Column>
-              <OpenH5 textAlign='center'>
-              USG tokens are a gold coin-backed blockchain cryptocurrency issued and administered via smart contracts on Ethereum, a blockchain-based distributed computing platform.
-              </OpenH5>
-              <OpenH5 textAlign='center'>
-              USG tokens are a direct representation of gold American Eagle one ounce coins issued by the United States Mint.
-              </OpenH5>
+                  <OpenH5 textAlign='center'>
+                    USG tokens are a gold coin-backed blockchain cryptocurrency issued and administered via smart contracts on Ethereum, a blockchain-based distributed computing platform.
+                  </OpenH5>
+                  <OpenH5 textAlign='center'>
+                    USG tokens are a direct representation of gold American Eagle one ounce coins issued by the United States Mint.
+                  </OpenH5>
                 </Grid.Column>
                 <Grid.Column>
-              <OpenH5 textAlign='center'>
-              USG tokens may be redeemed at any time at a 1-to-1 token-to-coin ratio.
-              </OpenH5>
-              <OpenH5 textAlign='center'>
-              US Gold Currency LLC is located on the "Crypto Plain" in Wyoming.
-              </OpenH5>
-              <OpenH5 textAlign='center'>
-              The State of Wyoming is the leader in transformational legislation providing an unparalleled business landscape to cryptocurrency and crypto-commodity infrastructure companies within these emerging sectors.
-              </OpenH5>
-              </Grid.Column>
+                  <OpenH5 textAlign='center'>
+                    USG tokens may be redeemed at any time at a 1-to-1 token-to-coin ratio.
+                  </OpenH5>
+                  <OpenH5 textAlign='center'>
+                    US Gold Currency LLC is located on the "Crypto Plain" in Wyoming.
+                  </OpenH5>
+                  <OpenH5 textAlign='center'>
+                    The State of Wyoming is the leader in transformational legislation providing an unparalleled business landscape to cryptocurrency and crypto-commodity infrastructure companies within these emerging sectors.
+                  </OpenH5>
+                </Grid.Column>
               </Grid.Row>
-            </Grid> */}
+            </Grid>
           </Container>
         </FullWidthDiv>
 

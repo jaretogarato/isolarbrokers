@@ -8,7 +8,7 @@ import { NavStyled, NavLinks } from '../css/styledComponents';
 import NavLink from './NavLink';
 import MemberAccount from './members/MemberAccount';
 // import LogoImage from '../assets/images/us-gold-logo.png';
-import LogoImage from '../assets/images/star-solar-logo.png';
+import LogoImage from '../assets/images/isolar-brokers-logo.png';
 import '../css/fonts.css';
 import '../css/styles.css';
 import '../css/semantic-ui/semantic.min.css';
