@@ -142,7 +142,12 @@ export const FullWidthDiv = styled.div`
 `
 export const FullWidthBgDiv = styled.div`
   position: relative;
-  ${'' /* top: 0; */}
+  display: flex;
+	background-color: papayawhip;
+	justify-content: center;
+	align-items: center;
+  -webkit-align-items: center;
+
   background: url(${ props => props.bgImage }) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -155,6 +160,9 @@ export const FullWidthBgDiv = styled.div`
   ${'' /* margin: 0; */}
   color: '#FFF';
   overflow: hidden;
+
+  @media (max-width: ${breaks.tablet}) {
+    padding-top: 30%;
 `
 export const HoverCenterDivWrap = styled.div`
   left: 50%;
@@ -314,6 +322,26 @@ export const VerticalSpacer = styled.div`
 `
 
 // ------------ Headers ------------
+export const OpenH1 = styled.h1`
+  height: auto;
+  color: ${ props => props.color || '#4c4c4c' }
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 48px;
+  text-align: ${ props => props.textAlign || 'center' };
+  text-justify: ${ props => props.textJustify || 'auto '};
+  margin-bottom: 30px;
+`
+export const OpenH2 = styled.h2`
+  height: auto;
+  color: ${ props => props.color || '#4c4c4c' }
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  text-align: ${ props => props.textAlign || 'center' };
+  text-justify: ${ props => props.textJustify || 'auto '};
+  margin-bottom: 30px;
+`
 export const OpenH3 = styled.h3`
   height: auto;
   color: ${ props => props.color || '#4c4c4c' }

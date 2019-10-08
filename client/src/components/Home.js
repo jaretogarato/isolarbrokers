@@ -52,7 +52,7 @@ import {
   Img2,
   FullWidthDiv, FullWidthBgDiv,
   FlexRowContainer,
-  OpenH3, OpenH4, OpenH5, OpenP, OpenPSmall, OpenSpanGreen, OpenSpanRed,
+  OpenH1, OpenH2, OpenH3, OpenH4, OpenH5, OpenP, OpenPSmall, OpenSpanGreen, OpenSpanRed,
   OpenUl, OpenLi,
   BorderedDiv, BorderedDivHead, BorderedDivBody, BorderedDivInnerWrapper,
   HoverCenterDiv, HoverCenterDivWrap,
@@ -109,33 +109,15 @@ class Home extends Component {
   render() {
     return (
       <Container fluid>
-        {/* <HeroHeader bgImage={TopBg}>
-          <Container>
-            <HhInnerContainer>
-          <HhTextContainer>
-          <HhH1>
-          STAR SOLAR
-          </HhH1>
-          <HhH2>
-          Create your own energy with a solar system for your home.
-          </HhH2>
-          </HhTextContainer>
-          <Fade>
-          <HhImageContainer bgImage={StarSolarSymbol} />
-          </Fade>
-            </HhInnerContainer>
-          </Container>
-        </HeroHeader> */}
-
         <FullWidthBgDiv bgImage={SolarPanelsBgWide2} height='600px'>
-          <Container>
+          <Container style={styles.verticalcenterflex}>
             <Grid>
               <Grid.Row>
                 <Grid.Column width={1} />
                 <Grid.Column width={14}>
-                  <OpenH3 color='white'>
+                  <OpenH2 color='white'>
                     You deserve great financing options.
-                  </OpenH3>
+                  </OpenH2>
                   <VerticalSpacer height={50} />
                   <OpenH4 color='white'>
                     You deserve stellar financing options that will reward your investment by granting you the maximum tax credit available where you live. With multiple financing options, you could get your custom solar system with zero-money down. We pledge to help you maximize your cost savings and return. <br /><br />
@@ -620,6 +602,9 @@ const styles = {
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  verticalcenterflex: {
+    display: 'flex',
   },
 }
 
