@@ -120,7 +120,7 @@ class Home extends Component {
                   </OpenH2>
                   <VerticalSpacer height={50} />
                   <OpenH4 color='white'>
-                    You deserve stellar financing options that will reward your investment by granting you the maximum tax credit available where you live. With multiple financing options, you could get your custom solar system with zero-money down. We pledge to help you maximize your cost savings and return. <br /><br />
+                    You deserve stellar financing options that will reward your investment by granting you the maximum tax credit available where you live. With multiple financing options, you could get your custom solar system with zero money down. We pledge to help you maximize your cost savings and return. <br /><br />
                   </OpenH4>
                 </Grid.Column>
                 <Grid.Column width={1} />
@@ -128,30 +128,6 @@ class Home extends Component {
             </Grid>
           </Container>
         </FullWidthBgDiv>
-
-        {/* <Grid divided>
-          <Grid.Row columns='equal'>
-            <Grid.Column>
-          <OpenH5 textAlign='center'>
-          USG tokens are a gold coin-backed blockchain cryptocurrency issued and administered via smart contracts on Ethereum, a blockchain-based distributed computing platform.
-          </OpenH5>
-          <OpenH5 textAlign='center'>
-          USG tokens are a direct representation of gold American Eagle one ounce coins issued by the United States Mint.
-          </OpenH5>
-            </Grid.Column>
-            <Grid.Column>
-          <OpenH5 textAlign='center'>
-          USG tokens may be redeemed at any time at a 1-to-1 token-to-coin ratio.
-          </OpenH5>
-          <OpenH5 textAlign='center'>
-          US Gold Currency LLC is located on the "Crypto Plain" in Wyoming.
-          </OpenH5>
-          <OpenH5 textAlign='center'>
-          The State of Wyoming is the leader in transformational legislation providing an unparalleled business landscape to cryptocurrency and crypto-commodity infrastructure companies within these emerging sectors.
-          </OpenH5>
-            </Grid.Column>
-          </Grid.Row>
-        </Grid> */}
 
         <FullWidthDiv topColor='#f9f9f9' bottomColor='#f9f9f9'>
           <Container>
@@ -190,15 +166,6 @@ class Home extends Component {
                   </FlexRowContainer>
                 </Grid.Column>
               </Grid.Row>
-              {/* <Grid.Row>
-                <Grid.Column rows={2}>
-                  <FlexRowContainer>
-                <OpenP>
-                Alcatra swine brisket, pig cupim pork chuck leberkas meatball ribeye.
-                </OpenP>
-                  </FlexRowContainer>
-                </Grid.Column>
-              </Grid.Row> */}
             </Grid>
           </Container>
         </FullWidthDiv>
@@ -242,17 +209,6 @@ class Home extends Component {
                           <OpenP>
                             The government wants homeowners to switch to solar by offering a 30% Federal Tax credit for your solar system. We know how to make sure you get the most from your credits.
                           </OpenP>
-                          {/* <OpenUl>
-                            <OpenLi>
-                              Buffalo rump short ribs bresaola pork chop
-                            </OpenLi>
-                            <OpenLi>
-                              Landjaeger shoulder sausage ball tip beef ribs.
-                            </OpenLi>
-                            <OpenLi>
-                              Cupim hamburger sirloin cow frankfurter.
-                            </OpenLi>
-                          </OpenUl> */}
                         </BorderedDivBody>
                       </BorderedDivInnerWrapper>
                     </BorderedDiv>
@@ -263,7 +219,6 @@ class Home extends Component {
                     <BorderedDiv>
                       <BorderedDivInnerWrapper>
                         <BorderedDivBody>
-                          {/* <Img src={IconStableValue} width={120} height={77} mode='fill' /> */}
                           <Img src={IconBank} width={120} height={120} mode='fill' />
                         </BorderedDivBody>
                         <BorderedDivHead>
@@ -274,56 +229,33 @@ class Home extends Component {
                             <OpenP>
                               For every dollar you invest in a solar system, your home value will instantly increase by $1.85. No other home improvement can promise that high of a return.
                             </OpenP>
-                            {/* <OpenUl>
-                              <OpenLi>
-                                Swine spare ribs cupim shank, hamburger ham tail chuck
-                              </OpenLi>
-                              <OpenLi>
-                                Jerky pancetta landjaeger ball tip short ribs.
-                              </OpenLi>
-                              <OpenLi>
-                                Shankle shoulder brisket, hamburger pork loin turducken.
-                              </OpenLi>
-                            </OpenUl> */}
                           </div>
                         </BorderedDivBody>
                       </BorderedDivInnerWrapper>
                     </BorderedDiv>
                   </Fade>
                 </Grid.Column>
-                <Grid.Column textAlign='center' style={styles.orangeBorder}>
+                {/* <Grid.Column textAlign='center' style={styles.orangeBorder}>
                   <Fade bottom delay={400}>
                     <BorderedDiv>
-                      <BorderedDivInnerWrapper>
-                        <BorderedDivBody>
-                          {/* <Img src={IconPerfectExit} width={120} height={77} mode='fill' /> */}
-                          <Img src={IconCash} width={120} height={120} mode='fill' />
-                        </BorderedDivBody>
-                        <BorderedDivHead>
-                          Sell your home twice as fast.
-                        </BorderedDivHead>
-                        <BorderedDivBody>
-                          <div>
-                            <OpenP>
-                              Homes with solar systems sell twice as fast and for $25,000 more on average than comparable homes in the same neighborhoods.
-                            </OpenP>
-                            {/* <OpenUl>
-                              <OpenLi>
-                                American Eagle gold coins are real currency.
-                              </OpenLi>
-                              <OpenLi>
-                                Tri-tip doner turkey meatball.
-                              </OpenLi>
-                              <OpenLi>
-                                Short loin pork chop burgdoggen meatball bacon rump.
-                              </OpenLi>
-                            </OpenUl> */}
-                          </div>
-                        </BorderedDivBody>
-                      </BorderedDivInnerWrapper>
+                  <BorderedDivInnerWrapper>
+                  <BorderedDivBody>
+                  <Img src={IconCash} width={120} height={120} mode='fill' />
+                  </BorderedDivBody>
+                  <BorderedDivHead>
+                  Sell your home twice as fast.
+                  </BorderedDivHead>
+                  <BorderedDivBody>
+                  <div>
+                  <OpenP>
+                  Homes with solar systems sell twice as fast and for $25,000 more on average than comparable homes in the same neighborhoods.
+                  </OpenP>
+                  </div>
+                  </BorderedDivBody>
+                  </BorderedDivInnerWrapper>
                     </BorderedDiv>
                   </Fade>
-                </Grid.Column>
+                </Grid.Column> */}
               </Grid.Row>
             </Grid>
             {/* <VerticalSpacer height='50px' /> */}

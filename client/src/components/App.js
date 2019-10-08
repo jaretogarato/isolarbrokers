@@ -9,7 +9,7 @@ import Flash from './Flash';
 import Home from './Home';
 import OurPromise from './OurPromise';
 import Token from './Token';
-import GetStarted from './GetStarted';
+import Contact from './Contact';
 import Wallet from './Wallet';
 import Redeem from './Redeem';
 import Purchase from './Purchase';
@@ -47,7 +47,7 @@ class App extends Component {
             <Route exact path='/' component={Home} />
             <Route path='/our-promise' component={OurPromise} />
             <Route path='/token' component={Token} />
-            <Route path='/get-started' component={GetStarted} />
+            <Route path='/contact' component={Contact} />
             <Route path='/wallet' component={Wallet} />
             <Route path='/redeem' component={Redeem} />
             <Route path='/purchase' component={Purchase} />

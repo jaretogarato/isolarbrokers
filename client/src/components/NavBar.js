@@ -78,7 +78,7 @@ class NavBar extends Component {
         <NavLink name='Our Promise' to='/our-promise' isCurrent={this.isRouteCurrent('/our-promise')} />
 
         {/* <NavLink name='Token' to='/token' isCurrent={this.isRouteCurrent('/token')} /> */}
-        <NavLink name='Get A Quote' to='/get-started' isCurrent={this.isRouteCurrent('/get-started')} />
+        <NavLink name='Contact Us' to='/contact' isCurrent={this.isRouteCurrent('/contact')} />
         {/* <NavLink name='Resources' to='/resources' isCurrent={this.isRouteCurrent('/resources')} />
         <NavLink name='Wallet' to='/wallet' isCurrent={this.isRouteCurrent('/wallet')} /> */}
         <NavLink name='888-782-7101' to='tel:888-782-7101' isCurrent={this.isRouteCurrent('/redeem')} />

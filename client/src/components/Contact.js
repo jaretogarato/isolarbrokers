@@ -43,7 +43,7 @@ class GetStarted extends Component {
           </Container>
         </HeroHeader>
 
-        <Grid padded>
+        <Grid padded stackable>
           <Grid.Row>
             <Grid.Column width={2}></Grid.Column>
             <Grid.Column width={12}>
@@ -56,8 +56,14 @@ class GetStarted extends Component {
             </Grid.Column>
             <Grid.Column width={2}></Grid.Column>
           </Grid.Row>
+          <Grid.Row centered columns>
+            <Grid.Column width={2} />
+            <Grid.Column width={12}>
+              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd5xMaO3ODuVcF4n9X_MU1BDCzUMoraQc294FYn0yjZI--9Dw/viewform?embedded=true" width="640" height="752" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </Grid.Column>
+            <Grid.Column width={2} />
+          </Grid.Row>
         </Grid>
-        <OpenH3><a href="mailto:support@star.solar">support@star.solar</a></OpenH3>
         {/* <SubmitForm /> */}
 
 
