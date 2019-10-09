@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Header, Container, Grid, Icon } from 'semantic-ui-react';
 import TopBg from '../assets/images/us-gold-header-bg.jpg';
 // import WalkingLiberty from '../assets/images/walking-liberty-coin.png';
-import USGoldToken from '../assets/images/usg-token.png';
+// import USGoldToken from '../assets/images/usg-token.png';
 import StarSolarSymbol from '../assets/images/sun-3.png';
 
 import CubesFiveGold from '../assets/images/cubes-five-gold.png';
