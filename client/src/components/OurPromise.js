@@ -3,16 +3,18 @@ import { Header, Container, Grid, Icon } from 'semantic-ui-react';
 import TopBg from '../assets/images/us-gold-header-bg.jpg';
 // import WalkingLiberty from '../assets/images/walking-liberty-coin.png';
 import USGoldToken from '../assets/images/usg-token.png';
-import StarSolarSymbol from '../assets/images/star-solar-symbol.png';
+import StarSolarSymbol from '../assets/images/sun-3.png';
 
 import CubesFiveGold from '../assets/images/cubes-five-gold.png';
 import GoldCoinBgWide from '../assets/images/gold-coin-bg-wide-2.jpg';
 import SolarPanelsBgWide from '../assets/images/mariana-proenca-1235961-unsplash-v02.jpg';
-import CubesGold02 from '../assets/images/cubes-gold-02.png';
+import MoneyCredit from '../assets/images/isolar-money-icon.png';
 import SineWaves from '../assets/images/sine-waves.png';
+import SolarPanelsBgWide2 from '../assets/images/isolarbrokers-background2.jpg';
 import Footer from './partials/Footer';
 import MainLinks from './partials/MainLinks';
 import Fade from 'react-reveal/Fade';
+
 // USGInUSD in is master value for entire application
 import {USGInUSD} from './partials/USGInUSD';
 import {
@@ -34,7 +36,7 @@ class OurPromise extends Component {
   render() {
     return (
       <Container fluid>
-        <HeroHeader bgImage={TopBg}>
+        <HeroHeader bgImage={SolarPanelsBgWide2}>
           <Container>
             <HhInnerContainer>
               <HhTextContainer>
@@ -46,7 +48,6 @@ class OurPromise extends Component {
                 </HhH2>
               </HhTextContainer>
               <Fade>
-                {/* <HhImageContainer bgImage={USGoldToken} /> */}
                 <HhImageContainer bgImage={StarSolarSymbol} />
               </Fade>
             </HhInnerContainer>
@@ -84,34 +85,33 @@ class OurPromise extends Component {
                 <Grid.Column width={7}>
                   <h1>&nbsp;</h1>
                   <Fade bottom>
-                    {/* <Img src={CubesFiveGold} width={400} height={404} marginTop='-130px' /> */}
-                    <Img src={CubesGold02} width={300} height={339} marginTop='-30px' />
+                    <Img src={MoneyCredit} width={315} height={263} marginTop='-30px' />
                   </Fade>
                 </Grid.Column>
               </Grid.Row>
             </Grid>
             <Grid divided>
-              <Grid.Row columns='equal'>
+              {/* <Grid.Row columns='equal'>
                 <Grid.Column>
                   <OpenH5 textAlign='center'>
-                    USG tokens are a gold coin-backed blockchain cryptocurrency issued and administered via smart contracts on Ethereum, a blockchain-based distributed computing platform.
+                USG tokens are a gold coin-backed blockchain cryptocurrency issued and administered via smart contracts on Ethereum, a blockchain-based distributed computing platform.
                   </OpenH5>
                   <OpenH5 textAlign='center'>
-                    USG tokens are a direct representation of gold American Eagle one ounce coins issued by the United States Mint.
+                USG tokens are a direct representation of gold American Eagle one ounce coins issued by the United States Mint.
                   </OpenH5>
                 </Grid.Column>
                 <Grid.Column>
                   <OpenH5 textAlign='center'>
-                    USG tokens may be redeemed at any time at a 1-to-1 token-to-coin ratio.
+                USG tokens may be redeemed at any time at a 1-to-1 token-to-coin ratio.
                   </OpenH5>
                   <OpenH5 textAlign='center'>
-                    US Gold Currency LLC is located on the "Crypto Plain" in Wyoming.
+                US Gold Currency LLC is located on the "Crypto Plain" in Wyoming.
                   </OpenH5>
                   <OpenH5 textAlign='center'>
-                    The State of Wyoming is the leader in transformational legislation providing an unparalleled business landscape to cryptocurrency and crypto-commodity infrastructure companies within these emerging sectors.
+                The State of Wyoming is the leader in transformational legislation providing an unparalleled business landscape to cryptocurrency and crypto-commodity infrastructure companies within these emerging sectors.
                   </OpenH5>
                 </Grid.Column>
-              </Grid.Row>
+              </Grid.Row> */}
             </Grid>
           </Container>
         </FullWidthDiv>

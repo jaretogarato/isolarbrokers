@@ -141,7 +141,7 @@ class Footer extends React.Component {
                   </OpenH4>
                   <OpenP color='white' textAlign='left'>
                     {/* <div style={styles.alignCenter}></div> */}
-                    <a style={styles.linkWhite} href="tel:888-782-7101"><b>888-782-7101</b></a> | <a href='mailto:support@star.solar'><OpenSpanWhite>support@star.solar</OpenSpanWhite></a>
+                    <a style={styles.linkWhite} href="tel:800-803-0869"><b>800-803-0869</b></a> | <a href='mailto:support@star.solar'><OpenSpanWhite>support@star.solar</OpenSpanWhite></a>
                   </OpenP>
                   <HrWhite />
                   <Grid>
@@ -193,20 +193,7 @@ class Footer extends React.Component {
                   </a>
 
                 </Grid.Column>
-                {/* <Grid.Column width={6}>
-                  <MailChimpForm />
-                </Grid.Column> */}
               </Grid.Row>
-              {/* <Grid.Row columns='equal'>
-                <Grid.Column textAlign='center'>
-                  <HrWhite />
-                </Grid.Column>
-              </Grid.Row> */}
-              {/* <Grid.Row columns='equal'>
-                <Grid.Column textAlign='center'>
-                  <BBB /><br />
-                </Grid.Column>
-              </Grid.Row> */}
             </Grid>
           </Container>
         </FullWidthDiv>
@@ -221,11 +208,11 @@ class Footer extends React.Component {
                     <Grid.Row>
                       <Grid.Column width={16}>
                         <OpenPSmall textAlign='center' color='white'>
-                          <Icon name='phone' />888-782-7101
+                          <Icon name='phone' />800-803-0869
                           &nbsp; &nbsp; | &nbsp; &nbsp;
                           {/* <Icon name='map pin' />123 Main St., Anytown, USA
                           &nbsp; &nbsp; | &nbsp; &nbsp; */}
-                          <Icon name='mail outline' /><a href="mailto:support@usgold.io">support@star.solar</a>
+                          <Icon name='mail outline' /><a href="mailto:support@usgold.io">support@isolarbrokers.com</a>
                         </OpenPSmall>
                       </Grid.Column>
                     </Grid.Row>
@@ -233,11 +220,11 @@ class Footer extends React.Component {
 
                   <OpenPSmall textAlign='center' color='white'>
                     &nbsp;<br />
-                    The materials provided on the Star Solar website are for informational purposes only. Neither Star Solar nor its affiliates make any express or implied warranties (including without limitation, any warranty of merchantability or fitness for a particular purpose or use) regarding the information appearing on the website nor will they be liable for loss, damages or loss of profit resulting from the use of information appearing on the website. Neither Star Solar nor its affiliates will be liable to any user or anyone else for any interruption, inaccuracy, error or omission, delay in or failure of transmission of information through the website regardless of cause, or for any resulting damages.
+                    The materials provided on the iSolar Brokers website are for informational purposes only. Neither iSolar Brokers nor its affiliates make any express or implied warranties (including without limitation, any warranty of merchantability or fitness for a particular purpose or use) regarding the information appearing on the website nor will they be liable for loss, damages or loss of profit resulting from the use of information appearing on the website. Neither Star Solar nor its affiliates will be liable to any user or anyone else for any interruption, inaccuracy, error or omission, delay in or failure of transmission of information through the website regardless of cause, or for any resulting damages.
                   </OpenPSmall>
                   <OpenPSmall textAlign='center' color='white'>
                     &nbsp;<br />
-                    Copyright © 2019 Star Solar
+                    Copyright © 2019 iSolar Brokers
                   </OpenPSmall>
                 </Grid.Column>
                 <Grid.Column width={2} />
@@ -251,7 +238,7 @@ class Footer extends React.Component {
             <DividerTransparent>
               <Segment basic>
                 <Fade top delay={10}>
-                  <Img src={LogoAndLight} width={944} height={563} marginTop={350} mode='fill' />
+                  <Img src={LogoAndLight} width={944} height={537} marginTop={0} mode='fill' />
                 </Fade>
               </Segment>
             </DividerTransparent>

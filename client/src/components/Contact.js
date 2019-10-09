@@ -4,9 +4,9 @@ import TopBg from '../assets/images/us-gold-header-bg.jpg';
 import Footer from './partials/Footer';
 import SubmitForm from './partials/SubmitForm';
 import Fade from 'react-reveal/Fade';
-// import WalkingLiberty from '../assets/images/walking-liberty-coin.png';
 import USGoldToken from '../assets/images/usg-token.png';
 import StarSolarSymbol from '../assets/images/star-solar-symbol.png';
+import SolarPanelsBgWide2 from '../assets/images/isolarbrokers-background2.jpg';
 import {
   HeroHeader, HhInnerContainer, HhTextContainer,
   HhImageContainer, HhH1, HhH2,
@@ -24,7 +24,7 @@ class GetStarted extends Component {
   render() {
     return (
       <Container fluid>
-        <HeroHeader bgImage={TopBg}>
+        <HeroHeader bgImage={SolarPanelsBgWide2}>
           <Container>
             <HhInnerContainer>
               <HhTextContainer>

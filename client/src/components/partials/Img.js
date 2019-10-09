@@ -18,6 +18,7 @@ export default class Img extends Component {
     };
 
     let important = {
+      // marginTop: 0,
       backgroundImage: `url("${src}")`,
       backgroundSize: size,
       backgroundPosition: 'center center',

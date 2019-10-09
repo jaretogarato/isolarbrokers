@@ -7,36 +7,35 @@ import TopBg from '../assets/images/us-gold-header-bg.jpg';
 import BricksGold from '../assets/images/bricks-gold.png';
 import GoldBars from '../assets/images/gold-bars.jpg';
 import InfinityBlue from '../assets/images/infinity-blue.png';
-// import USGoldToken from '../assets/images/usg-token.png';
 import StarSolarSymbol from '../assets/images/star-solar-symbol.png';
 import PoweredByOpenNetwork from '../assets/images/powered-by-open-network.png';
 import IconGoldBacked from '../assets/images/icon-panel-gold-backed.png';
 import IconStableValue from '../assets/images/icon-panel-stable-value.png';
 import IconPerfectExit from '../assets/images/icon-panel-perfect-exit.png';
-import MainPanelsBg from '../assets/images/main-panels-bg.jpg';
-import CubesColored from '../assets/images/cubes-colored.png';
-import LinesColored from '../assets/images/lines-three-colored.png';
+// import MainPanelsBg from '../assets/images/main-panels-bg.jpg';
+import MainPanelsBg from '../assets/images/home-sec02-bg-02.jpg';
+import Sun from '../assets/images/sun.png';
+import SunTwo from '../assets/images/sun-2.png';
 import CubeGold from '../assets/images/cube-gold.png';
 import ChartBitcoin from '../assets/images/chart-bitcoin.jpg';
 import ChartEthereum from '../assets/images/chart-ethereum.jpg';
 import ChartUSGold from '../assets/images/chart-usgold.jpg';
 import GoldOnGradient from '../assets/images/gold-bar-on-gradient.png';
 import CubeColoredB from '../assets/images/cube-colored-b.png';
-import BuyKeepRedeem from '../assets/images/buy-keep-redeem-bg-wide.jpg';
-import PaymentsAccepted from '../assets/images/payments-accepted.png';
-import FincenLogoBlack from '../assets/images/fincen-logo-black.png';
-// import BBBGray from '../assets/images/bbb-gray-400x.png';
-import FincenGray from '../assets/images/fincen-gray-400x.png';
-import WyomingGray from '../assets/images/wyoming-seal-gray-400x.png';
+// import BuyKeepRedeem from '../assets/images/buy-keep-redeem-bg-wide.jpg';
+// import PaymentsAccepted from '../assets/images/payments-accepted.png';
+// import FincenLogoBlack from '../assets/images/fincen-logo-black.png';
+// import FincenGray from '../assets/images/fincen-gray-400x.png';
+// import WyomingGray from '../assets/images/wyoming-seal-gray-400x.png';
 import GoldBarsHoriz from '../assets/images/gold-bars-horiz.jpg';
 import IconBank from '../assets/images/icon-bank.png';
 import IconCash from '../assets/images/icon-cash.png';
 import IconCredit from '../assets/images/icon-credit.png';
-import SolarPanelsBgWide from '../assets/images/mariana-proenca-1235961-unsplash-v02.jpg';
+// import SolarPanelsBgWide from '../assets/images/mariana-proenca-1235961-unsplash-v02.jpg';
 import SolarPanelsBgWide2 from '../assets/images/isolarbrokers-background2.jpg';
 
 // USGInUSD in is master value for entire application
-import {USGInUSD} from './partials/USGInUSD';
+// import {USGInUSD} from './partials/USGInUSD';
 
 // ---------- partials -------------
 import Img from './partials/Img';
@@ -80,31 +79,31 @@ class Home extends Component {
 
   state = { USGInUSD: 0.0, ethereumPrice: 0.0, ethereum24hrChange: 0.0, USGInEthereum: 0.0 };
 
-  componentDidMount() {
-    this.getEthereumPrice();
-    console.log('usginusd:');
-    console.log(USGInUSD);
-    this.setState({ USGInUSD: USGInUSD });
-  }
+  // componentDidMount() {
+  //   this.getEthereumPrice();
+  //   console.log('usginusd:');
+  //   console.log(USGInUSD);
+  //   this.setState({ USGInUSD: USGInUSD });
+  // }
 
-  getEthereumPrice = () => {
-    fetch('https://api.coinmarketcap.com/v2/ticker/1027/?convert=USD')
-      .then(results => {
-        return results.json();
-      })
-      .then(data => {
-        let ep = data.data.quotes.USD.price;
-        let e24ch = data.data.quotes.USD.percent_change_24h.toFixed(2);
-        let usgeth = (USGInUSD / ep).toFixed(7);
-        console.log('usgeth');
-        console.log(usgeth);
-        this.setState({
-          ethereumPrice: ep,
-          ethereum24hrChange: e24ch,
-          USGInEthereum: usgeth,
-        });
-      });
-  };
+  // getEthereumPrice = () => {
+  //   fetch('https://api.coinmarketcap.com/v2/ticker/1027/?convert=USD')
+  //     .then(results => {
+  //       return results.json();
+  //     })
+  //     .then(data => {
+  //       let ep = data.data.quotes.USD.price;
+  //       let e24ch = data.data.quotes.USD.percent_change_24h.toFixed(2);
+  //       let usgeth = (USGInUSD / ep).toFixed(7);
+  //       console.log('usgeth');
+  //       console.log(usgeth);
+  //       this.setState({
+  //         ethereumPrice: ep,
+  //         ethereum24hrChange: e24ch,
+  //         USGInEthereum: usgeth,
+  //       });
+  //     });
+  // };
 
   render() {
     return (
@@ -115,9 +114,9 @@ class Home extends Component {
               <Grid.Row>
                 <Grid.Column width={1} />
                 <Grid.Column width={14}>
-                  <OpenH2 color='white'>
+                  <OpenH1 color='white'>
                     You deserve great financing options.
-                  </OpenH2>
+                  </OpenH1>
                   <VerticalSpacer height={50} />
                   <OpenH4 color='white'>
                     You deserve stellar financing options that will reward your investment by granting you the maximum tax credit available where you live. With multiple financing options, you could get your custom solar system with zero money down. We pledge to help you maximize your cost savings and return. <br /><br />
@@ -130,10 +129,10 @@ class Home extends Component {
         </FullWidthBgDiv>
 
         <FullWidthDiv topColor='#f9f9f9' bottomColor='#f9f9f9'>
-          <Container>
+          <Container style={ styles.padLgTopBottom }>
             <OpenH3>
-              <a href="/get-started/" alt="Get Started">
-                Get a quote today.
+              <a href="/contact/" alt="contact" style={{ textDecoration:'underline' }}>
+                Contact us and request a quote today.
               </a>
             </OpenH3>
             <Grid stackable>
@@ -147,7 +146,6 @@ class Home extends Component {
                       A great investment.
                     </OpenH4>
                     <OpenP>
-
                       Investing in solar is the greatest investment opportunity of your lifetime. You’ll make an immediate 90% return going solar versus the 25% return for the 2017 Dow Jones Industrial Average.
                     </OpenP>
                   </FlexRowContainer>
@@ -175,18 +173,18 @@ class Home extends Component {
             <HoverCenterDivWrap top='0'>
               <Fade bottom delay={10}>
                 <HoverCenterDiv
-                  bgImage={CubesColored}
-                  height='300px'
-                  top='-165px'
+                  bgImage={Sun}
+                  height='240px'
+                  top='-144px'
                 />
               </Fade>
             </HoverCenterDivWrap>
             <HoverCenterDivWrap top='200px'>
-              <Fade bottom delay={300}>
+              <Fade top delay={300}>
                 <HoverCenterDiv
-                  bgImage={LinesColored}
-                  height='300px'
-                  top='-165px'
+                  bgImage={SunTwo}
+                  height='298px'
+                  top='-195px'
                 />
               </Fade>
             </HoverCenterDivWrap>
@@ -194,12 +192,10 @@ class Home extends Component {
             <Grid padded stackable style={styles.pushedDown}>
               <Grid.Row columns='equal' stretched style={styles.orangeBorder} >
                 <Grid.Column textAlign='center' style={styles.orangeBorder}>
-                  {/* <Fade bottom className='fade-flex'> */}
                   <Fade bottom style={{...styles.fadeFlex}}>
                     <BorderedDiv>
                       <BorderedDivInnerWrapper>
                         <BorderedDivBody>
-                          {/* <Img src={IconGoldBacked} width={120} height={77} mode='fill' /> */}
                           <Img src={IconCredit} width={120} height={120} mode='fill' />
                         </BorderedDivBody>
                         <BorderedDivHead>
@@ -537,6 +533,13 @@ const styles = {
   },
   verticalcenterflex: {
     display: 'flex',
+  },
+  underline: {
+    textDecoration: 'underline',
+  },
+  padLgTopBottom: {
+    paddingTop: '70px',
+    paddingBottom: '100px',
   },
 }
 

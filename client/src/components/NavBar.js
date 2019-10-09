@@ -7,7 +7,6 @@ import { connect } from 'react-redux';
 import { NavStyled, NavLinks } from '../css/styledComponents';
 import NavLink from './NavLink';
 import MemberAccount from './members/MemberAccount';
-// import LogoImage from '../assets/images/us-gold-logo.png';
 import LogoImage from '../assets/images/isolar-brokers-logo.png';
 import '../css/fonts.css';
 import '../css/styles.css';
@@ -57,7 +56,8 @@ class NavBar extends Component {
         <div className='navWrap'>
           <div className='navLogo'>
             <a href="/" alt="US Gold Currency">
-              <Img src={LogoImage} width={213} height={86} marginTop='14px'/>
+              {/* <Img src={LogoImage} width={213} height={86} marginTop='14px'/> */}
+              <Img src={LogoImage} width={252} height={76} marginTop='14px'/>
             </a>
           </div>
             { this.mainNavs() }
@@ -81,7 +81,7 @@ class NavBar extends Component {
         <NavLink name='Contact Us' to='/contact' isCurrent={this.isRouteCurrent('/contact')} />
         {/* <NavLink name='Resources' to='/resources' isCurrent={this.isRouteCurrent('/resources')} />
         <NavLink name='Wallet' to='/wallet' isCurrent={this.isRouteCurrent('/wallet')} /> */}
-        <NavLink name='888-782-7101' to='tel:888-782-7101' isCurrent={this.isRouteCurrent('/redeem')} />
+        <NavLink name='800-803-0869' to='tel:800-803-0869' isCurrent={this.isRouteCurrent('/redeem')} />
 
         {/* <p>{this.props.user.id ? this.props.user.id : "nothing here"}</p> */}
       </NavLinks>
