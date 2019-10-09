@@ -188,7 +188,7 @@ class Footer extends React.Component {
                   </a>
                   <a href="/get-started" alt="token">
                     <OpenP color='white' deco='underline' textAlign='left' paddingBottom='0.5em'>
-                      Get A Quote
+                      Contact Us
                     </OpenP>
                   </a>
 
