@@ -61,7 +61,8 @@ class GetStarted extends Component {
           <Grid.Row centered columns>
             <Grid.Column width={2} />
             <Grid.Column width={12}>
-              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd5xMaO3ODuVcF4n9X_MU1BDCzUMoraQc294FYn0yjZI--9Dw/viewform?embedded=true" width="640" height="753" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+              {/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd5xMaO3ODuVcF4n9X_MU1BDCzUMoraQc294FYn0yjZI--9Dw/viewform?embedded=true" width="640" height="753" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
+              <iframe src="http://bit.ly/2AUUAzk" width="640" height="753" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </Grid.Column>
             <Grid.Column width={2} />
           </Grid.Row>

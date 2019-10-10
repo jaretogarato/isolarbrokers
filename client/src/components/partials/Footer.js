@@ -15,7 +15,7 @@ import Img from './Img';
 import Fade from 'react-reveal/Fade';
 
 import LogoAndLight from '../../assets/images/logo-and-light.png';
-import SubFooterBg from '../../assets/images/sub-footer-bg.jpg';
+import SubFooterBg from '../../assets/images/sub-footer-bg-02.jpg';
 import FincenLogo from  '../../assets/images/fincen-logo.png';
 import USMintLogo from '../../assets/images/usmint-logo.png';
 import FacebookWhite from '../../assets/images/facebook-white.png';
@@ -233,7 +233,7 @@ class Footer extends React.Component {
           </Container>
         </FullWidthDiv>
 
-        <FullWidthBgDiv bgImage={SubFooterBg} minHeight='450px'>
+        <FullWidthBgDiv bgImage={SubFooterBg} minHeight='413px'>
           <Container>
             <DividerTransparent>
               <Segment basic>
