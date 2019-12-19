@@ -19,14 +19,9 @@ import RegistrationPending from './RegistrationPending';
 import Profile from './Profile';
 import USMint from './USMint';
 import Fincen from './Fincen';
-// import Terms from './Terms';
-import Privacy from './Privacy';
 import Dashboard from './Dashboard';
 import Leads from './Leads';
 import Users from './Users';
-import UserAgreement from './UserAgreement';
-import TokenPurchaseAgreement from './TokenPurchaseAgreement';
-// import FormWrap from './FormValidationEg';
 import ReactTrackDemo from './ReactTrackDemo';
 import ProtectedRoute from './ProtectedRoute';
 import AuthRoute from './AuthRoute';
@@ -55,9 +50,6 @@ class App extends Component {
             <Route path='/success' component={Success} />
             <Route path='/usmint' component={USMint} />
             <Route path='/fincen' component={Fincen} />
-            <Route path='/privacy' component={Privacy} />
-            <Route path='/token-purchase-agreement' component={TokenPurchaseAgreement} />
-            <Route path='/user-agreement' component={UserAgreement} />
             {/* <Route path='/form-validation-eg' component={FormWrap} /> */}
 
 
@@ -67,9 +59,7 @@ class App extends Component {
             <AuthRoute exact path='/login' component={Login} />
             {/* <Route exact path='/register2' component={AccountNew} /> */}
             <ProtectedRoute path='/leads' component={Leads} />
-            <ProtectedRoute path='/users' component={Users} />
-            <ProtectedRoute path='/profile/*' component={Profile} />
-            <ProtectedRoute path='/dashboard/*' component={Dashboard} />
+
             <Route component={NoMatch} />
           </Switch>
         </FetchUser>
