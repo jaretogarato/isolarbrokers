@@ -7,12 +7,11 @@ import TopBg from '../assets/images/us-gold-header-bg.jpg';
 import BricksGold from '../assets/images/bricks-gold.png';
 import GoldBars from '../assets/images/gold-bars.jpg';
 import InfinityBlue from '../assets/images/infinity-blue.png';
-import StarSolarSymbol from '../assets/images/star-solar-symbol.png';
+import ISolarSymbol from '../assets/images/isolar-symbol.png';
 import PoweredByOpenNetwork from '../assets/images/powered-by-open-network.png';
 import IconGoldBacked from '../assets/images/icon-panel-gold-backed.png';
 import IconStableValue from '../assets/images/icon-panel-stable-value.png';
 import IconPerfectExit from '../assets/images/icon-panel-perfect-exit.png';
-// import MainPanelsBg from '../assets/images/main-panels-bg.jpg';
 import MainPanelsBg from '../assets/images/home-sec02-bg-02.jpg';
 import Sun from '../assets/images/sun.png';
 import SunTwo from '../assets/images/sun-2.png';
@@ -22,20 +21,11 @@ import ChartEthereum from '../assets/images/chart-ethereum.jpg';
 import ChartUSGold from '../assets/images/chart-usgold.jpg';
 import GoldOnGradient from '../assets/images/gold-bar-on-gradient.png';
 import CubeColoredB from '../assets/images/cube-colored-b.png';
-// import BuyKeepRedeem from '../assets/images/buy-keep-redeem-bg-wide.jpg';
-// import PaymentsAccepted from '../assets/images/payments-accepted.png';
-// import FincenLogoBlack from '../assets/images/fincen-logo-black.png';
-// import FincenGray from '../assets/images/fincen-gray-400x.png';
-// import WyomingGray from '../assets/images/wyoming-seal-gray-400x.png';
 import GoldBarsHoriz from '../assets/images/gold-bars-horiz.jpg';
 import IconBank from '../assets/images/icon-bank.png';
 import IconCash from '../assets/images/icon-cash.png';
 import IconCredit from '../assets/images/icon-credit.png';
-// import SolarPanelsBgWide from '../assets/images/mariana-proenca-1235961-unsplash-v02.jpg';
 import SolarPanelsBgWide2 from '../assets/images/isolarbrokers-background2.jpg';
-
-// USGInUSD in is master value for entire application
-// import {USGInUSD} from './partials/USGInUSD';
 
 // ---------- partials -------------
 import Img from './partials/Img';

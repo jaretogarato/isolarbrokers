@@ -5,9 +5,8 @@ import Footer from './partials/Footer';
 import SubmitForm from './partials/SubmitForm';
 import Fade from 'react-reveal/Fade';
 // import USGoldToken from '../assets/images/usg-token.png';
-import StarSolarSymbol from '../assets/images/sun-3.png';
+import ISolarSymbol from '../assets/images/sun-3.png';
 
-// import StarSolarSymbol from '../assets/images/star-solar-symbol.png';
 import SolarPanelsBgWide2 from '../assets/images/isolarbrokers-background2.jpg';
 import {
   HeroHeader, HhInnerContainer, HhTextContainer,
@@ -39,7 +38,7 @@ class GetStarted extends Component {
               </HhTextContainer>
               <Fade>
                 {/* <HhImageContainer bgImage={USGoldToken} /> */}
-                <HhImageContainer bgImage={StarSolarSymbol} />
+                <HhImageContainer bgImage={ISolarSymbol} />
               </Fade>
             </HhInnerContainer>
           </Container>
@@ -49,11 +48,8 @@ class GetStarted extends Component {
           <Grid.Row>
             <Grid.Column width={2}></Grid.Column>
             <Grid.Column width={12}>
-              {/* <OpenH3>
-                To get a complete understanding of your solar needs, please fill out the contact form below. Star Solar will contact you to schedule an appointment with a solar expert.
-              </OpenH3> */}
               <OpenH3>
-                To get a complete understanding of your solar needs, please send us an email. Star Solar will contact you to schedule an appointment with a solar expert.
+                To get a complete understanding of your solar needs, please send us an email. iSolar Brokers will contact you to schedule an appointment with a solar expert.
               </OpenH3>
             </Grid.Column>
             <Grid.Column width={2}></Grid.Column>

@@ -3,7 +3,7 @@ import { Header, Container, Grid, Icon } from 'semantic-ui-react';
 import TopBg from '../assets/images/us-gold-header-bg.jpg';
 // import WalkingLiberty from '../assets/images/walking-liberty-coin.png';
 // import USGoldToken from '../assets/images/usg-token.png';
-import StarSolarSymbol from '../assets/images/sun-3.png';
+import ISolarSymbol from '../assets/images/sun-3.png';
 
 import CubesFiveGold from '../assets/images/cubes-five-gold.png';
 import GoldCoinBgWide from '../assets/images/gold-coin-bg-wide-2.jpg';
@@ -48,7 +48,7 @@ class OurPromise extends Component {
                 </HhH2>
               </HhTextContainer>
               <Fade>
-                <HhImageContainer bgImage={StarSolarSymbol} />
+                <HhImageContainer bgImage={ISolarSymbol} />
               </Fade>
             </HhInnerContainer>
           </Container>
@@ -60,7 +60,7 @@ class OurPromise extends Component {
               25 Year Guarantee.
             </OpenH3>
             <OpenH3>
-              You deserve a better warranty than just a simple manufacturer warranty that doesn’t cover the costs of service or production deficiencies. With the Star Solar Guarantee, not only will we fix your system if it stops working, <em>we will compensate you while the system is not operating. </em>
+              You deserve a better warranty than just a simple manufacturer warranty that doesn’t cover the costs of service or production deficiencies. With the iSolar Brokers Guarantee, not only will we fix your system if it stops working, <em>we will compensate you while the system is not operating. </em>
             </OpenH3>
           </Container>
         </FullWidthDiv>

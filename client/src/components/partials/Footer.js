@@ -141,7 +141,7 @@ class Footer extends React.Component {
                   </OpenH4>
                   <OpenP color='white' textAlign='left'>
                     {/* <div style={styles.alignCenter}></div> */}
-                    <a style={styles.linkWhite} href="tel:800-803-0869"><b>800-803-0869</b></a> | <a href='mailto:support@star.solar'><OpenSpanWhite>support@star.solar</OpenSpanWhite></a>
+                    <a style={styles.linkWhite} href="tel:800-803-0869"><b>800-803-0869</b></a> | <a href='mailto:support@isolarbrokers.com'><OpenSpanWhite>support@isolarbrokers.com</OpenSpanWhite></a>
                   </OpenP>
                   <HrWhite />
                   <Grid>
@@ -220,7 +220,7 @@ class Footer extends React.Component {
 
                   <OpenPSmall textAlign='center' color='white'>
                     &nbsp;<br />
-                    The materials provided on the iSolar Brokers website are for informational purposes only. Neither iSolar Brokers nor its affiliates make any express or implied warranties (including without limitation, any warranty of merchantability or fitness for a particular purpose or use) regarding the information appearing on the website nor will they be liable for loss, damages or loss of profit resulting from the use of information appearing on the website. Neither Star Solar nor its affiliates will be liable to any user or anyone else for any interruption, inaccuracy, error or omission, delay in or failure of transmission of information through the website regardless of cause, or for any resulting damages.
+                    The materials provided on the iSolar Brokers website are for informational purposes only. Neither iSolar Brokers nor its affiliates make any express or implied warranties (including without limitation, any warranty of merchantability or fitness for a particular purpose or use) regarding the information appearing on the website nor will they be liable for loss, damages or loss of profit resulting from the use of information appearing on the website. Neither iSolar Brokers nor its affiliates will be liable to any user or anyone else for any interruption, inaccuracy, error or omission, delay in or failure of transmission of information through the website regardless of cause, or for any resulting damages.
                   </OpenPSmall>
                   <OpenPSmall textAlign='center' color='white'>
                     &nbsp;<br />
