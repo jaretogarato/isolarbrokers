@@ -143,31 +143,31 @@ class Footer extends React.Component {
                     {/* <div style={styles.alignCenter}></div> */}
                     <a style={styles.linkWhite} href="tel:800-803-0869"><b>800-803-0869</b></a> | <a href='mailto:support@isolarbrokers.com'><OpenSpanWhite>support@isolarbrokers.com</OpenSpanWhite></a>
                   </OpenP>
-                  <HrWhite />
-                  <Grid>
+                  {/* <HrWhite /> */}
+                  {/* <Grid>
                     <Grid.Row columns='equal'>
                       <Grid.Column>
 
                       </Grid.Column>
                       <Grid.Column>
-                        <a href='https://twitter.com/' target='_blank' rel='noreferrer nofollow'>
-                          <Img src={TwitterWhite} width={30} height={30} />
-                        </a>
+                    <a href='https://twitter.com/' target='_blank' rel='noreferrer nofollow'>
+                    <Img src={TwitterWhite} width={30} height={30} />
+                    </a>
                       </Grid.Column>
                       <Grid.Column>
 
                       </Grid.Column>
                       <Grid.Column>
-                        <a href='https://www.facebook.com/' target='_blank' rel='noreferrer nofollow'>
-                          <Img src={FacebookWhite} width={30} height={30} />
-                        </a>
+                    <a href='https://www.facebook.com/' target='_blank' rel='noreferrer nofollow'>
+                    <Img src={FacebookWhite} width={30} height={30} />
+                    </a>
                       </Grid.Column>
                       <Grid.Column>
 
                       </Grid.Column>
                     </Grid.Row>
-                  </Grid>
-                  <HrWhite />
+                    </Grid>
+                  <HrWhite /> */}
 
 
                 </Grid.Column>
@@ -186,7 +186,7 @@ class Footer extends React.Component {
                       Our Promise
                     </OpenP>
                   </a>
-                  <a href="/get-started" alt="token">
+                  <a href="/contact" alt="token">
                     <OpenP color='white' deco='underline' textAlign='left' paddingBottom='0.5em'>
                       Contact Us
                     </OpenP>

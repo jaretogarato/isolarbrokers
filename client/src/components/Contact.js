@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Header, Container, Grid } from "semantic-ui-react";
+import { Header, Container, Grid, Form, Button } from "semantic-ui-react";
 import TopBg from "../assets/images/us-gold-header-bg.jpg";
 import Footer from "./partials/Footer";
 import SubmitForm from "./partials/SubmitForm";
@@ -35,80 +35,76 @@ import {
   USGButton
 } from "../css/styledComponents";
 
-const CustomForm = ({ status, message, onValidated }) => {
-  let email, name;
-  const submit = () =>
-    email &&
-    name &&
-    email.value.indexOf("@") > -1 &&
-    onValidated({
-      EMAIL: email.value,
-      NAME: name.value
-    });
-
-  return (
-    <div
-      style={{
-        background: "#fff",
-        borderRadius: 2,
-        padding: 10,
-        display: "inline-block"
-      }}
-    >
-      {status === "sending" && <div style={{ color: "blue" }}>sending...</div>}
-      {status === "error" && (
-        <div
-          style={{ color: "red" }}
-          dangerouslySetInnerHTML={{ __html: message }}
-        />
-      )}
-      {status === "success" && (
-        <div
-          style={{ color: "green" }}
-          dangerouslySetInnerHTML={{ __html: message }}
-        />
-      )}
-      <input
-        style={{ fontSize: "2em", padding: 5, border: "1px solid gray" }}
-        ref={node => (name = node)}
-        type="text"
-        placeholder="Name"
-      />
-      <br />
-      <input
-        style={{ fontSize: "2em", padding: 5 , border: "1px solid gray"}}
-        ref={node => (email = node)}
-        type="email"
-        placeholder="Email"
-      />
-      <br />
-      <input
-        style={{ fontSize: "2em", padding: 5, border: "1px solid gray" }}
-        ref={node => (email = node)}
-        type="textarea"
-        rows="4"
-        cols="50"
-        placeholder="Message"
-      />
-      <br />
-      <button style={{ fontSize: "2em", padding: 5, border: "1px solid gray", background: '#efefef' }} onClick={submit}>
-        Submit
-      </button>
-    </div>
-  );
-};
+// const CustomForm = ({ status, message, onValidated }) => {
+//   let email, name;
+//   const submit = () =>
+//     email &&
+//     name &&
+//     email.value.indexOf("@") > -1 &&
+//     onValidated({
+//       EMAIL: email.value,
+//       NAME: name.value
+//     });
+//
+//   return (
+//     <div
+//       style={{
+//         background: "#fff",
+//         borderRadius: 2,
+//         padding: 10,
+//         display: "inline-block"
+//       }}
+//     >
+//       {status === "sending" && <div style={{ color: "blue" }}>sending...</div>}
+//       {status === "error" && (
+//         <div
+//           style={{ color: "red" }}
+//           dangerouslySetInnerHTML={{ __html: message }}
+//         />
+//       )}
+//       {status === "success" && (
+//         <div
+//           style={{ color: "green" }}
+//           dangerouslySetInnerHTML={{ __html: message }}
+//         />
+//       )}
+//       <input
+//         style={{ fontSize: "2em", padding: 5, border: "1px solid gray" }}
+//         ref={node => (name = node)}
+//         type="text"
+//         placeholder="Name"
+//       />
+//       <br />
+//       <input
+//         style={{ fontSize: "2em", padding: 5 , border: "1px solid gray"}}
+//         ref={node => (email = node)}
+//         type="email"
+//         placeholder="Email"
+//       />
+//       <br />
+//       <input
+//         style={{ fontSize: "2em", padding: 5, border: "1px solid gray" }}
+//         ref={node => (email = node)}
+//         type="textarea"
+//         rows="4"
+//         cols="50"
+//         placeholder="Message"
+//       />
+//       <br />
+//       <Button style={{ fontSize: "2em", padding: 5, border: "1px solid gray", background: '#efefef' }} onClick={submit}>
+//         Submit
+//       </Button>
+//     </div>
+//   );
+// };
 
 class GetStarted extends Component {
   // state = { loaded: false };
-  state = { emailValue: '', fNameValue: '', lNameValue: ''};
+  state = { emailValue: '', fNameValue: '', lNameValue: '', messageValue: '' };
 
   render() {
     const url =
       "//isolarbrokers.us12.list-manage.com/subscribe/post?u=cf9ce23a0bf215fb1dac481fa&amp;id=672a32aaf5";
-
-
-
-
 
     return (
       <Container fluid>
@@ -144,7 +140,11 @@ class GetStarted extends Component {
             <Grid.Column width={2} />
             <Grid.Column width={12}>
 
-              <form action="https://isolarbrokers.us12.list-manage.com/subscribe/post?u=cf9ce23a0bf215fb1dac481fa&amp;id=672a32aaf5" method="POST" noValidate>
+              <Form
+                action="https://isolarbrokers.us12.list-manage.com/subscribe/post?u=cf9ce23a0bf215fb1dac481fa&amp;id=672a32aaf5"
+                method="POST"
+                noValidate
+              >
                 <input type="hidden" name="u" value="cf9ce23a0bf215fb1dac481fa"/>
                 <input type="hidden" name="id" value="672a32aaf5"/>
                 <label htmlFor='MERGE0'>
@@ -179,7 +179,33 @@ class GetStarted extends Component {
                     onChange={(e)=>{this.setState({lNameValue: e.target.value});}}
                   />
                 </label>
-                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button"/>
+
+                <Form.TextArea
+                  label="Message"
+                  name="Message"
+                  id="MMERGE8"
+                  value={this.state.messageValue}
+                  onChange={(e)=>{this.setState({messageValue: e.target.value});}}
+                />
+
+
+                {/* <label htmlFor='MMERGE8'>
+                  Message
+                  <input
+                    type="textarea"
+                    name="Message"
+                    id="MMERGE8"
+                    value={this.state.messageValue}
+                    onChange={(e)=>{this.setState({messageValue: e.target.value});}}
+                  />
+                </label> */}
+
+
+
+                {/* <input type="submit" value="Submit" name="submit" id="mc-embedded-subscribe" className="button"/> */}
+                <Button type="submit" value="Submit" name="submit" id="mc-embedded-subscribe" className="button">
+                  Submit
+                </Button>
 
                 <div style={{position: 'absolute', left: '-5000px'}} aria-hidden='true' aria-label="Please leave the following three fields empty">
                   <label htmlFor="b_name">Name: </label>
@@ -191,21 +217,7 @@ class GetStarted extends Component {
                   <label htmlFor="b_comment">Comment: </label>
                   <textarea name="b_comment" tabIndex="-1" placeholder="Please comment" id="b_comment"></textarea>
                 </div>
-              </form>
-
-
-              {/* <div>
-                <MailchimpSubscribe
-                  url={url}
-                  render={({ subscribe, status, message }) => (
-                <CustomForm
-                status={status}
-                message={message}
-                onValidated={formData => subscribe(formData)}
-                />
-                  )}
-                />
-              </div> */}
+              </Form>
 
             </Grid.Column>
             <Grid.Column width={2} />
