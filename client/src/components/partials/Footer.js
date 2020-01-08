@@ -19,6 +19,7 @@ import SubFooterBg from '../../assets/images/sub-footer-bg-02.jpg';
 import FincenLogo from  '../../assets/images/fincen-logo.png';
 import USMintLogo from '../../assets/images/usmint-logo.png';
 import FacebookWhite from '../../assets/images/facebook-white.png';
+import LinkedInWhite from '../../assets/images/linkedin-white-x200.png';
 import TwitterWhite from '../../assets/images/twitter-white.png';
 
 const MailChimpForm = () => (
@@ -143,31 +144,34 @@ class Footer extends React.Component {
                     {/* <div style={styles.alignCenter}></div> */}
                     <a style={styles.linkWhite} href="tel:800-803-0869"><b>800-803-0869</b></a> | <a href='mailto:support@isolarbrokers.com'><OpenSpanWhite>support@isolarbrokers.com</OpenSpanWhite></a>
                   </OpenP>
-                  {/* <HrWhite /> */}
-                  {/* <Grid>
+                  <HrWhite />
+                  <Grid>
                     <Grid.Row columns='equal'>
                       <Grid.Column>
 
                       </Grid.Column>
                       <Grid.Column>
-                    <a href='https://twitter.com/' target='_blank' rel='noreferrer nofollow'>
-                    <Img src={TwitterWhite} width={30} height={30} />
-                    </a>
+                        {/* <a href='https://twitter.com/' target='_blank' rel='noreferrer nofollow'>
+                          <Img src={TwitterWhite} width={30} height={30} />
+                        </a> */}
+                        <a href='https://www.linkedin.com/company/isolar-brokers/' target='_blank' rel='noreferrer nofollow'>
+                          <Img src={LinkedInWhite} width={30} height={30} />
+                        </a>
                       </Grid.Column>
                       <Grid.Column>
 
                       </Grid.Column>
                       <Grid.Column>
-                    <a href='https://www.facebook.com/' target='_blank' rel='noreferrer nofollow'>
-                    <Img src={FacebookWhite} width={30} height={30} />
-                    </a>
+                        <a href='https://www.facebook.com/iSolarBrokers/' target='_blank' rel='noreferrer nofollow'>
+                          <Img src={FacebookWhite} width={30} height={30} />
+                        </a>
                       </Grid.Column>
                       <Grid.Column>
 
                       </Grid.Column>
                     </Grid.Row>
-                    </Grid>
-                  <HrWhite /> */}
+                  </Grid>
+                  <HrWhite />
 
 
                 </Grid.Column>
