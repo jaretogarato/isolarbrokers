@@ -25,7 +25,7 @@ import GoldBarsHoriz from '../assets/images/gold-bars-horiz.jpg';
 import IconBank from '../assets/images/icon-bank.png';
 import IconCash from '../assets/images/icon-cash.png';
 import IconCredit from '../assets/images/icon-credit.png';
-import SolarPanelsBgWide2 from '../assets/images/isolarbrokers-background2.jpg';
+import SolarPanelsBgWide2 from '../assets/images/isolarbrokers-background03.jpg';
 
 // ---------- partials -------------
 import Img from './partials/Img';
@@ -37,7 +37,7 @@ import '../css/react-reveal.css';
 import '../css/mailchimp.css';
 import {
   HeroHeader, HhInnerContainer, HhTextContainer,
-  HhImageContainer, HhH1, HhH2,
+  HhImageContainer, HhH1, HhH2, HhH3,
   Img2,
   FullWidthDiv, FullWidthBgDiv,
   FlexRowContainer,
@@ -108,9 +108,9 @@ class Home extends Component {
                     You deserve great financing options.
                   </OpenH1>
                   <VerticalSpacer height={50} />
-                  <OpenH4 color='white'>
+                  <HhH3>
                     You deserve stellar financing options that will reward your investment by granting you the maximum tax credit available where you live. With multiple financing options, you could get your custom solar system with zero money down. We pledge to help you maximize your cost savings and return. <br /><br />
-                  </OpenH4>
+                  </HhH3>
                 </Grid.Column>
                 <Grid.Column width={1} />
               </Grid.Row>

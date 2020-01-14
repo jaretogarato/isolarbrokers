@@ -10,7 +10,7 @@ import GoldCoinBgWide from '../assets/images/gold-coin-bg-wide-2.jpg';
 import SolarPanelsBgWide from '../assets/images/mariana-proenca-1235961-unsplash-v02.jpg';
 import MoneyCredit from '../assets/images/isolar-money-icon.png';
 import SineWaves from '../assets/images/sine-waves.png';
-import SolarPanelsBgWide2 from '../assets/images/isolarbrokers-background2.jpg';
+import SolarPanelsBgWide2 from '../assets/images/isolarbrokers-background03.jpg';
 import Footer from './partials/Footer';
 import MainLinks from './partials/MainLinks';
 import Fade from 'react-reveal/Fade';

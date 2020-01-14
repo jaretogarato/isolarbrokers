@@ -159,7 +159,7 @@ class Footer extends React.Component {
                         </a>
                       </Grid.Column>
                       <Grid.Column>
-
+                        
                       </Grid.Column>
                       <Grid.Column>
                         <a href='https://www.facebook.com/iSolarBrokers/' target='_blank' rel='noreferrer nofollow'>
