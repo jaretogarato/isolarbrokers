@@ -105,7 +105,7 @@ class Home extends Component {
                 <Grid.Column width={1} />
                 <Grid.Column width={14}>
                   <OpenH1 color='white'>
-                    You deserve great financing options.
+                    We only specialize in tier 1 and top shelf products.
                   </OpenH1>
                   <VerticalSpacer height={50} />
                   <HhH3>
