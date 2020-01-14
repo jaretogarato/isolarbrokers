@@ -98,7 +98,7 @@ class Home extends Component {
   render() {
     return (
       <Container fluid>
-        <FullWidthBgDiv bgImage={SolarPanelsBgWide2} height='600px'>
+        <FullWidthBgDiv bgImage={SolarPanelsBgWide2} height='400px'>
           <Container style={styles.verticalcenterflex}>
             <Grid>
               <Grid.Row>
@@ -108,9 +108,9 @@ class Home extends Component {
                     We only specialize in tier 1 and top shelf products.
                   </OpenH1>
                   <VerticalSpacer height={50} />
-                  <HhH3>
+                  {/* <HhH3>
                     You deserve stellar financing options that will reward your investment by granting you the maximum tax credit available where you live. With multiple financing options, you could get your custom solar system with zero money down. We pledge to help you maximize your cost savings and return. <br /><br />
-                  </HhH3>
+                  </HhH3> */}
                 </Grid.Column>
                 <Grid.Column width={1} />
               </Grid.Row>
