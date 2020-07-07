@@ -12,11 +12,9 @@ import Contact from './Contact';
 import Resources from './Resources';
 import Success from './Success';
 import RegistrationPending from './RegistrationPending';
-import Privacy from './Privacy';
 import Dashboard from './Dashboard';
 import Leads from './Leads';
 import Users from './Users';
-import UserAgreement from './UserAgreement';
 // import FormWrap from './FormValidationEg';
 import ReactTrackDemo from './ReactTrackDemo';
 import ProtectedRoute from './ProtectedRoute';
@@ -40,8 +38,6 @@ class App extends Component {
             <Route path='/contact' component={Contact} />
             <Route path='/resources' component={Resources} />
             <Route path='/success' component={Success} />
-            <Route path='/privacy' component={Privacy} />
-            <Route path='/user-agreement' component={UserAgreement} />
             {/* <Route path='/form-validation-eg' component={FormWrap} /> */}
             <Route exact path='/register' component={AccountNew} />
             <Route exact path='/registration-pending' component={RegistrationPending} />
