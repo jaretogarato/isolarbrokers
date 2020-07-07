@@ -15,10 +15,11 @@ import Img from './Img';
 import Fade from 'react-reveal/Fade';
 
 import LogoAndLight from '../../assets/images/logo-and-light.png';
-import SubFooterBg from '../../assets/images/sub-footer-bg.jpg';
+import SubFooterBg from '../../assets/images/sub-footer-bg-02.jpg';
 import FincenLogo from  '../../assets/images/fincen-logo.png';
 import USMintLogo from '../../assets/images/usmint-logo.png';
 import FacebookWhite from '../../assets/images/facebook-white.png';
+import LinkedInWhite from '../../assets/images/linkedin-white-x200.png';
 import TwitterWhite from '../../assets/images/twitter-white.png';
 
 const MailChimpForm = () => (
@@ -141,7 +142,7 @@ class Footer extends React.Component {
                   </OpenH4>
                   <OpenP color='white' textAlign='left'>
                     {/* <div style={styles.alignCenter}></div> */}
-                    <a style={styles.linkWhite} href="tel:800-803-0869"><b>800-803-0869</b></a> | <a href='mailto:support@star.solar'><OpenSpanWhite>support@star.solar</OpenSpanWhite></a>
+                    <a style={styles.linkWhite} href="tel:800-803-0869"><b>800-803-0869</b></a> | <a href='mailto:support@isolarbrokers.com'><OpenSpanWhite>support@isolarbrokers.com</OpenSpanWhite></a>
                   </OpenP>
                   <HrWhite />
                   <Grid>
@@ -150,15 +151,18 @@ class Footer extends React.Component {
 
                       </Grid.Column>
                       <Grid.Column>
-                        <a href='https://twitter.com/' target='_blank' rel='noreferrer nofollow'>
+                        {/* <a href='https://twitter.com/' target='_blank' rel='noreferrer nofollow'>
                           <Img src={TwitterWhite} width={30} height={30} />
+                        </a> */}
+                        <a href='https://www.linkedin.com/company/isolar-brokers/' target='_blank' rel='noreferrer nofollow'>
+                          <Img src={LinkedInWhite} width={30} height={30} />
                         </a>
                       </Grid.Column>
                       <Grid.Column>
-
+                        
                       </Grid.Column>
                       <Grid.Column>
-                        <a href='https://www.facebook.com/' target='_blank' rel='noreferrer nofollow'>
+                        <a href='https://www.facebook.com/iSolarBrokers/' target='_blank' rel='noreferrer nofollow'>
                           <Img src={FacebookWhite} width={30} height={30} />
                         </a>
                       </Grid.Column>
@@ -186,7 +190,7 @@ class Footer extends React.Component {
                       Our Promise
                     </OpenP>
                   </a>
-                  <a href="/get-started" alt="token">
+                  <a href="/contact" alt="token">
                     <OpenP color='white' deco='underline' textAlign='left' paddingBottom='0.5em'>
                       Contact Us
                     </OpenP>
@@ -220,7 +224,7 @@ class Footer extends React.Component {
 
                   <OpenPSmall textAlign='center' color='white'>
                     &nbsp;<br />
-                    The materials provided on the iSolar Brokers website are for informational purposes only. Neither iSolar Brokers nor its affiliates make any express or implied warranties (including without limitation, any warranty of merchantability or fitness for a particular purpose or use) regarding the information appearing on the website nor will they be liable for loss, damages or loss of profit resulting from the use of information appearing on the website. Neither Star Solar nor its affiliates will be liable to any user or anyone else for any interruption, inaccuracy, error or omission, delay in or failure of transmission of information through the website regardless of cause, or for any resulting damages.
+                    The materials provided on the iSolar Brokers website are for informational purposes only. Neither iSolar Brokers nor its affiliates make any express or implied warranties (including without limitation, any warranty of merchantability or fitness for a particular purpose or use) regarding the information appearing on the website nor will they be liable for loss, damages or loss of profit resulting from the use of information appearing on the website. Neither iSolar Brokers nor its affiliates will be liable to any user or anyone else for any interruption, inaccuracy, error or omission, delay in or failure of transmission of information through the website regardless of cause, or for any resulting damages.
                   </OpenPSmall>
                   <OpenPSmall textAlign='center' color='white'>
                     &nbsp;<br />
@@ -233,7 +237,7 @@ class Footer extends React.Component {
           </Container>
         </FullWidthDiv>
 
-        <FullWidthBgDiv bgImage={SubFooterBg} minHeight='450px'>
+        <FullWidthBgDiv bgImage={SubFooterBg} minHeight='413px'>
           <Container>
             <DividerTransparent>
               <Segment basic>

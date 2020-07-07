@@ -33,6 +33,7 @@ export const HeroHeader = styled.div`
   }
   @media (max-width: ${breaks.tablet}) {
     height: 400px;
+    margin-top: 130px;
   }
 `
 export const HhInnerContainer = styled.div`
@@ -86,7 +87,7 @@ export const HhH1 = styled.h1`
   color: white;
   font-family: 'Open Sans', sans-serif;
   text-transform: none;
-  font-weight: 300;
+  font-weight: 600;
   font-size: 50px;
   margin: 0;
   padding: 0;
@@ -103,6 +104,20 @@ export const HhH2 = styled.h2`
   font-size: 35px;
   margin: 0;
   padding: 0;
+
+  @media (max-width: ${breaks.tablet}) {
+    font-size: 30px;
+  }
+`
+export const HhH3 = styled.h3`
+  display: flex;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 
   @media (max-width: ${breaks.tablet}) {
     font-size: 30px;
@@ -162,7 +177,8 @@ export const FullWidthBgDiv = styled.div`
   overflow: hidden;
 
   @media (max-width: ${breaks.tablet}) {
-    padding-top: 30%;
+    margin-top: 130px;
+  }
 `
 export const HoverCenterDivWrap = styled.div`
   left: 50%;
@@ -326,7 +342,7 @@ export const OpenH1 = styled.h1`
   height: auto;
   color: ${ props => props.color || '#4c4c4c' }
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 600;
   font-size: 48px;
   text-align: ${ props => props.textAlign || 'center' };
   text-justify: ${ props => props.textJustify || 'auto '};
@@ -354,10 +370,10 @@ export const OpenH3 = styled.h3`
 `
 export const OpenH4 = styled.h4`
   height: auto;
-  color: ${ props => props.color || '#4c4c4c' }
+  color: ${ props => props.color || '#4c4c4c' };
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 28px;
   text-align: ${ props => props.textAlign || 'center' };
   text-justify: ${ props => props.textJustify || 'auto '};
   margin-bottom: 20px;
@@ -367,7 +383,7 @@ export const OpenH5 = styled.h5`
   color: ${ props => props.color || '#4c4c4c' }
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 18px;
   text-align: ${ props => props.textAlign || 'center' };
   text-justify: ${ props => props.textJustify || 'auto '};
   margin-bottom: 18px;
@@ -484,7 +500,8 @@ export const FlexRowContainer = styled.div`
 export const OpenP = styled.div`
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  font-size: 1em;
+  font-size: 1.4em;
+  line-height: 1.4em;
   color: ${ props => props.color || '#4c4c4c' };
   text-align: ${ props => props.textAlign || 'center' };
   text-justify: ${ props => props.textAlign === 'justify' ? 'inter-word' : 'auto'};

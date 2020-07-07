@@ -7,7 +7,7 @@ import TopBg from '../assets/images/us-gold-header-bg.jpg';
 import BricksGold from '../assets/images/bricks-gold.png';
 import GoldBars from '../assets/images/gold-bars.jpg';
 import InfinityBlue from '../assets/images/infinity-blue.png';
-import StarSolarSymbol from '../assets/images/star-solar-symbol.png';
+import ISolarSymbol from '../assets/images/isolar-symbol.png';
 import PoweredByOpenNetwork from '../assets/images/powered-by-open-network.png';
 import IconGoldBacked from '../assets/images/icon-panel-gold-backed.png';
 import IconStableValue from '../assets/images/icon-panel-stable-value.png';
@@ -36,7 +36,7 @@ import '../css/react-reveal.css';
 import '../css/mailchimp.css';
 import {
   HeroHeader, HhInnerContainer, HhTextContainer,
-  HhImageContainer, HhH1, HhH2,
+  HhImageContainer, HhH1, HhH2, HhH3,
   Img2,
   FullWidthDiv, FullWidthBgDiv,
   FlexRowContainer,
@@ -68,7 +68,7 @@ class Home extends Component {
   render() {
     return (
       <Container fluid>
-        <FullWidthBgDiv bgImage={SolarPanelsBgWide2} height='600px'>
+        <FullWidthBgDiv bgImage={SolarPanelsBgWide2} height='400px'>
           <Container style={styles.verticalcenterflex}>
             <Grid>
               <Grid.Row>
@@ -79,9 +79,9 @@ class Home extends Component {
                     Official sponsor of the Indiana Pacers in 2020.
                   </OpenH1>
                   <VerticalSpacer height={50} />
-                  <OpenH4 color='white'>
+                  {/* <HhH3>
                     You deserve stellar financing options that will reward your investment by granting you the maximum tax credit available where you live. With multiple financing options, you could get your custom solar system with zero money down. We pledge to help you maximize your cost savings and return. <br /><br />
-                  </OpenH4>
+                  </HhH3> */}
                 </Grid.Column>
                 <Grid.Column width={1} />
               </Grid.Row>
